@@ -1,13 +1,13 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-bool isPalindromeRecursive(string str, int left, int right) {
+bool isPalindrome(string str, int left, int right) {
   if (left >= right) {
     return true;
   } else if (str[left] != str[right]) {
     return false;
   } else {
-    return isPalindromeRecursive(str, left + 1, right - 1);
+    return isPalindrome(str, left + 1, right - 1);
   }
 }
 
@@ -16,7 +16,7 @@ int main() {
   cout << "Enter a string: ";
   cin >> str;
 
-  if (isPalindromeRecursive(str, 0, str.length() - 1)) {
+  if (isPalindrome(str, 0, str.length() - 1)) {
     cout << " Palindrome." << endl;
   } else {
     cout << " Not a Palindrome." << endl;
