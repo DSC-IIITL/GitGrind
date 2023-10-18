@@ -8,7 +8,8 @@ Write a program that takes 10 values as input from the user, stores them in an a
 
 ### Input
 
-User provides 10 values: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50
+User provides 10 values: 
+```5 10 15 20 25 30 35 40 45 50```
 
 ### Output
 
