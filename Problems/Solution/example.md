@@ -14,7 +14,7 @@ Write a program that takes 10 values as input from the user, stores them in an a
 
 ### Output
 
-Sum of the array elements: 255
+Sum of the array elements: 275
 
 ## Constraints
 
