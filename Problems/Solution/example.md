@@ -6,9 +6,11 @@ Write a program that takes 10 values as input from the user, stores them in an a
 
 ## Examples
 
-### **Input**
+### Input
  
-```5 10 15 20 25 30 35 40 45 50```
+```
+5 10 15 20 25 30 35 40 45 50
+```
 
 ### Output
 
