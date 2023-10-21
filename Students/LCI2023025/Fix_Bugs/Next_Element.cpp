@@ -41,5 +41,3 @@ int main() {
 
     return 0;
 }
-
-// There are few Logical errors in the code. Fix them and submit the code.
