@@ -29,5 +29,3 @@ int main() {
     return 0;
 }
 
-// Provide an another/alternate approach to solve the above question 
-// (Do you want a hint?).
