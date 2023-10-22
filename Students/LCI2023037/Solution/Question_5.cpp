@@ -14,7 +14,7 @@ void selection(int p)
       cout<<p<<endl;
     sum+=(fact(p)/(fact(i)*fact(p-i)));
   } 
-  cout<<sum<<endl; 
+  cout<<sum*2<<endl; 
 }
 int main()
 {
@@ -41,8 +41,8 @@ int main()
            
         }
         if(arr[i+1][0]>=arr[i][0]&&arr[i+1][0]<=arr[i][1])
-        cnt++;
         break;
+        cnt++;
         }
 }
 cout<<cnt<<endl;
