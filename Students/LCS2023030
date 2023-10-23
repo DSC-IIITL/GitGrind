@@ -1,0 +1,13 @@
+#include<iostream>
+#include<algorithm>
+using namespace std;
+
+int main(){
+    string s;
+    cin>>s;
+
+    cout<<"Initial String: "<<s<<endl;
+    
+    reverse(s.begin(),s.end());
+    cout<<"reversed string is:"<<s<<endl;
+}
