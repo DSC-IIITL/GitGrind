@@ -14,7 +14,7 @@ You are given an array of integers. Write a function that returns the sum of all
 arr = [1, 2, 3, 4, 5, 6]
 
 **Output:**
-12
+00
 
 **Explanation:**
 In the given array, the even numbers are 2, 4, and 6. The sum of these even numbers is 12.
